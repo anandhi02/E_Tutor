@@ -1,0 +1,835 @@
+body {
+  background-image: url("img/background.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+
+}
+      /* Popup Window Styles */
+       .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 9999;
+      }
+.popup-inner {
+  background-image: url('img/Background2.jpg'); /* Set the background image */
+  background-size: cover; /* Scale the background image to cover the entire content */
+  margin: auto;
+  padding: 20px;
+  position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 400px;
+        width: 90%;
+        background-color: white;
+        border-radius: 30px;
+        text-align: center;     
+}
+
+.close-btn {
+  color: #2b4e74;
+  float: right;
+  font-size: 32px;
+  font-weight: bold;
+          position: absolute;
+        top: 10px;
+        right: 25px;
+        cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color:#036cc1;
+  text-decoration: none;
+  cursor: pointer;
+}
+      /* Form Styles */
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      input {
+        margin: 8px 0;
+        padding: 10px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        font-size: 16px;
+        border-radius: 20px;
+      }
+      
+      button[type="submit"] {
+        background-color: #2b4e74;
+        color: white;
+        
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-family: poppins;
+      }
+      button:hover,
+      .button:focus {
+ color: #2b4e74;
+  background-color:aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+}
+
+
+.infographic-chart h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.infographic-chart h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.infographic-chart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url('img/background.jpg');
+  margin-top: -15px;
+}
+
+.chart-heading {
+  grid-column: 1 / -1;
+  margin-bottom: -10px;
+  font-size: 40px;
+  color: #2b4e74;
+}
+
+.image-heading{
+  margin-bottom: 40px;
+  margin-left: 320px;
+  font-size: 40px;
+  color: #2b4e74;
+  white-space: nowrap;
+
+}
+
+
+
+.box-heading {
+  font-size: 18;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-family: "sans-serif"
+  color: steelblue;
+}
+.box1 {
+  background-color: violet;
+  background-image: url('img/background.jpg');
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* transition property for smooth effect */
+  border-radius: 20px;
+
+}
+.box2 {
+  background-color: violet;
+  background-image: url('img/background.jpg');
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* transition property for smooth effect */
+  border-radius: 20px;
+
+}
+.box3 {
+  background-color: red;
+  background-image: url('img/background.jpg');
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* transition property for smooth effect */
+  border-radius: 20px;
+
+}
+.box4 {
+  background-color: lightblue;
+  background-image: url('img/background.jpg');
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* transition property for smooth effect */
+  border-radius: 20px;
+
+}
+.box5 {
+  background-color: lightblue;
+  background-image: url('img/background.jpg');
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* transition property for smooth effect */
+  border-radius: 20px;
+
+}
+.box6 {
+  background-color: lightblue;
+  background-image: url('img/background.jpg');
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* transition property for smooth effect */
+  border-radius: 20px;
+
+}
+
+.box1:hover {
+  transform: translateY(-5px); /* apply transformation on hover */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* add shadow effect on hover */
+  background-color: lightgray;
+}
+.box2:hover {
+  transform: translateY(-5px); /* apply transformation on hover */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* add shadow effect on hover */
+  background-color: lightgray;
+}
+.box3:hover {
+  transform: translateY(-5px); /* apply transformation on hover */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* add shadow effect on hover */
+  background-color: lightgray;
+}
+.box4:hover {
+  transform: translateY(-5px); /* apply transformation on hover */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* add shadow effect on hover */
+  background-color: lightgray;
+}
+.box5:hover {
+  transform: translateY(-5px); /* apply transformation on hover */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* add shadow effect on hover */
+  background-color: lightgray;
+}
+.box6:hover {
+  transform: translateY(-5px); /* apply transformation on hover */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* add shadow effect on hover */
+  background-color: lightgray;
+}
+.box-in {
+  margin-top: 20px;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: darkgoldenrod;
+
+}
+
+.box-text {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: black;
+}
+.image-con {
+  position: relative; /* Position property set to relative */
+  max-width: 100%; /* Width set to 100% */
+  margin-top: 50px;
+  margin-left: 230px;
+  margin-bottom: -100px;
+}
+.image-cont {
+  background-image: url("img/background.jpg");
+  position: relative; /* Position property set to relative */
+  max-width: 100%; /* Width set to 100% */
+  margin-top: 0px;
+  margin-left: 60px;
+}
+
+.text-box1 {
+  position: absolute;
+  top: 375px;
+  left: 165px;
+  transform: translate(-50%, -50%);
+  background-color: #;
+  padding: 10px;
+}
+.text-box2 {
+  position: absolute;
+  top: 375px;
+  left: 520px;
+  transform: translate(-50%, -50%);
+  background-color: #;
+  padding: 10px;
+}
+.text-box3 {
+  position: absolute;
+  top: 375px;
+  left: 880px;
+  transform: translate(-50%, -50%);
+  background-color: #;
+  padding: 10px;
+}
+.text-box4 {
+  position: absolute;
+  top: 375px;
+  left: 1215px;
+  transform: translate(-50%, -50%);
+  background-color: #;
+  padding: 10px;
+}
+.text-box5 {
+  position: absolute;
+  top: 835px;
+  left: 335px;
+  transform: translate(-50%, -50%);
+  background-color: #;
+  padding: 10px;
+}
+.text-box6 {
+  position: absolute;
+  top: 835px;
+  left: 690px;
+  transform: translate(-50%, -50%);
+  background-color: #;
+  padding: 10px;
+}
+.text-box7 {
+  position: absolute;
+  top: 835px;
+  left: 1040px;
+  transform: translate(-50%, -50%);
+  background-color: #;
+  padding: 10px;
+}
+
+.text {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  white-space: nowrap;
+}
+
+/* Style for image container */
+.image-container {
+  position: relative; /* Position property set to relative */
+  width: 100%; /* Width set to 100% */
+  margin-top: 70px;
+  margin-bottom:-50px;
+     background-image: url('img/background.jpg');
+}
+
+
+/* Style for image inside image container */
+.image-container img {
+  width: 100%; /* Set width to 100% */
+}
+
+/* Style for click-here button */
+.click-here-button {
+  position: absolute; /* Position property set to absolute */
+  top: 89.5%; /* Distance from top of container */
+  left: 82%; /* Distance from left of container */
+  transform: translate(-50%, -50%); /* Position the button in the center of the container */
+  padding: 10px 20px; /* Add padding of 10px top and bottom and 20px left and right */
+  background-color: white; /* Background color */
+  color: #2b4e74; /* Text color */
+  text-decoration: none; /* Remove underline from text */
+  border: 1px solid #000; /* Border with 2px width and black color */
+  border-radius: 15px; /* Add rounded corners of 5px */
+  font-weight: bold; /* Bold font weight */
+  transition: all 0.3s ease-in-out; /* Add transition effect for all styles with ease-in-out timing of 0.3 seconds */
+}
+
+/* Style when hover over click-here button */
+.click-here-button:hover {
+  background-color: lightskyblue; /* Background color */
+  color: white; /* Text color */
+}
+
+
+/* Fixed header styles */
+.fixed-header {
+  background-image: url('img/background.jpg');
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px; /* adjust height as needed */
+  background-color: #ffffff; /* set background color */
+  z-index: 999; /* make sure the header is on top of other elements */
+  display: flex;
+  justify-content:; /* horizontally center child elements */
+  align-items: center; /* vertically center child elements */
+  margin-bottom: 20px;
+}
+
+/* Logo styles */
+.logo {
+  width: 120px; /* set logo width */
+  margin-right: 350px; /* adjust margin as needed */
+  margin-left:250px ; /* adjust margin as needed */
+}
+
+/* Logo image styles */
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation menu styles */
+.nav-menu ul {
+  display: flex;
+  justify-content: center; /* horizontally center child elements */
+  align-items: center; /* vertically center child elements */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation menu item styles */
+.nav-menu li {
+  margin: 0 2px; /* adjust margin as needed */
+}
+
+/* Navigation menu link styles */
+.nav-menu a {
+  text-decoration: none;
+  color: #2b4e74; /* set link color */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 17px;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* Navigation menu link hover styles */
+.nav-menu a:hover {
+  color: WHITE; /* set link color on hover */
+  background-color: #2b4e74; /* set background color on hover */
+  border-radius: 40px;
+}
+
+.about-us {
+  margin-top: 60px; /* Adds margin to the top of the element with class "about-us". */
+  text-align: center; /* Centers the content of the element with class "about-us". */
+   background-image: url('img/background.jpg');
+}
+
+.about-us h2 {
+  font-size: 50px; /* Sets the font size of the "h2" element inside "about-us". */
+  margin-bottom: 26px; /* Adds margin at the bottom of the "h2" element inside "about-us". */
+  color: #2b4e74; /* Sets the color of the "h2" element inside "about-us". */
+}
+
+.about-us p {
+  font-size: 23px; /* Sets the font size of the "p" element inside "about-us". */
+  margin-bottom: 1px; /* Adds margin at the bottom of the "p" element inside "about-us". */
+  margin-left: 5%; /* Adds margin to the left of the "p" element inside "about-us". */
+  margin-right: 5%; /* Adds margin to the right of the "p" element inside "about-us". */
+}
+
+.about-us-images {
+  justify-content: space-between; /* Aligns items inside the container with class "about-us-images" to be evenly distributed along the main axis with space between them. */
+  flex-wrap: wrap; /* Allows items inside the container with class "about-us-images" to wrap onto multiple lines if they exceed the width of the container. */
+  margin-bottom: 15px; /* Adds margin at the bottom of the container with class "about-us-images". */
+  max-width: 100%;
+  display: block; /* Displays the container with class "about-us-images" as a block element. */
+  margin-left: auto; /* Centers the container with class "about-us-images" horizontally by setting the left margin to auto. */
+  margin-right: auto; /* Centers the container with class "about-us-images" horizontally by setting the right margin to auto. */
+  margin-top: -10px;
+}
+
+.about-us-images img {
+  max-width: 100%;
+  width: 30%; /* Sets the width of images inside the container with class "about-us-images" to 15% of their container's width. */
+  margin-bottom: 15px; /* Adds margin at the bottom of images inside the container with class "about-us-images". */
+  margin: 10px; /* Sets the margin for images inside the container with class "about-us-images" to 10px on all sides. */
+}
+
+
+
+
+
+#testimonials {
+  background-image: url("img/background.jpg");
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #2b4e74;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonial-slide {
+  width: 400px;
+  max-width: 100%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.testimonial-slide p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.testimonial-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.testimonial-rating {
+  font-size: 24px;
+  color: #f7d942;
+}
+
+
+
+
+.footer{
+  background-image: url("img/background.jpg");
+
+max-width: 97%;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+max-width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:black;
+font-size:0.8em;
+margin-left: 100px;
+align-items: center;
+}
+
+.footer .row a{
+text-decoration:none;
+color:black;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color: darkblue;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+
+
+#loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+#content {
+  display: none;
+}
+
+
+
+.pencil {
+  display: block;
+  width: 10em;
+  height: 10em;
+}
+
+.pencil__body1,
+.pencil__body2,
+.pencil__body3,
+.pencil__eraser,
+.pencil__eraser-skew,
+.pencil__point,
+.pencil__rotate,
+.pencil__stroke {
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.pencil__body1,
+.pencil__body2,
+.pencil__body3 {
+  transform: rotate(-90deg);
+}
+
+.pencil__body1 {
+  animation-name: pencilBody1;
+}
+
+.pencil__body2 {
+  animation-name: pencilBody2;
+}
+
+.pencil__body3 {
+  animation-name: pencilBody3;
+}
+
+.pencil__eraser {
+  animation-name: pencilEraser;
+  transform: rotate(-90deg) translate(49px,0);
+}
+
+.pencil__eraser-skew {
+  animation-name: pencilEraserSkew;
+  animation-timing-function: ease-in-out;
+}
+
+.pencil__point {
+  animation-name: pencilPoint;
+  transform: rotate(-90deg) translate(49px,-30px);
+}
+
+.pencil__rotate {
+  animation-name: pencilRotate;
+}
+
+.pencil__stroke {
+  animation-name: pencilStroke;
+  transform: translate(100px,100px) rotate(-113deg);
+}
+
+/* Animations */
+@keyframes pencilBody1 {
+  from,
+  to {
+    stroke-dashoffset: 351.86;
+    transform: rotate(-90deg);
+  }
+
+  50% {
+    stroke-dashoffset: 150.8;
+ /* 3/8 of diameter */
+    transform: rotate(-225deg);
+  }
+}
+
+@keyframes pencilBody2 {
+  from,
+  to {
+    stroke-dashoffset: 406.84;
+    transform: rotate(-90deg);
+  }
+
+  50% {
+    stroke-dashoffset: 174.36;
+    transform: rotate(-225deg);
+  }
+}
+
+@keyframes pencilBody3 {
+  from,
+  to {
+    stroke-dashoffset: 296.88;
+    transform: rotate(-90deg);
+  }
+
+  50% {
+    stroke-dashoffset: 127.23;
+    transform: rotate(-225deg);
+  }
+}
+
+@keyframes pencilEraser {
+  from,
+  to {
+    transform: rotate(-45deg) translate(49px,0);
+  }
+
+  50% {
+    transform: rotate(0deg) translate(49px,0);
+  }
+}
+
+@keyframes pencilEraserSkew {
+  from,
+  32.5%,
+  67.5%,
+  to {
+    transform: skewX(0);
+  }
+
+  35%,
+  65% {
+    transform: skewX(-4deg);
+  }
+
+  37.5%, 
+  62.5% {
+    transform: skewX(8deg);
+  }
+
+  40%,
+  45%,
+  50%,
+  55%,
+  60% {
+    transform: skewX(-15deg);
+  }
+
+  42.5%,
+  47.5%,
+  52.5%,
+  57.5% {
+    transform: skewX(15deg);
+  }
+}
+
+@keyframes pencilPoint {
+  from,
+  to {
+    transform: rotate(-90deg) translate(49px,-30px);
+  }
+
+  50% {
+    transform: rotate(-225deg) translate(49px,-30px);
+  }
+}
+
+@keyframes pencilRotate {
+  from {
+    transform: translate(100px,100px) rotate(0);
+  }
+
+  to {
+    transform: translate(100px,100px) rotate(720deg);
+  }
+}
+
+@keyframes pencilStroke {
+  from {
+    stroke-dashoffset: 439.82;
+    transform: translate(100px,100px) rotate(-113deg);
+  }
+
+  50% {
+    stroke-dashoffset: 164.93;
+    transform: translate(100px,100px) rotate(-113deg);
+  }
+
+  75%,
+  to {
+    stroke-dashoffset: 439.82;
+    transform: translate(100px,100px) rotate(112deg);
+  }
+}
+
+
+#video {
+        width: 48%;
+        float: left;
+        margin-top: 120px;
+      }
+#conten {
+        width: 50%;
+        float: right;
+        padding: -40px;
+        left: 40%;
+         margin-top: 110px;
+      }
+#conten h1 {
+   font-size: 40px; /* Sets the font size of the "h2" element inside "about-us". */
+  margin-bottom: 26px; /* Adds margin at the bottom of the "h2" element inside "about-us". */
+  color: #2b4e74; /* Sets the color of the "h2" element inside "about-us". */
+}
+
+#conten p {
+   font-size: 20px; /* Sets the font size of the "h2" element inside "about-us". */
+  margin-bottom: 26px; /* Adds margin at the bottom of the "h2" element inside "about-us". */
+  color: darkgoldenrod; /* Sets the color of the "h2" element inside "about-us". */
+  font-weight: bold;
+}
+
+
+/* Logo styles */
+.log {
+  width: 180px; /* set logo width */
+  margin-right: 350px; /* adjust margin as needed */
+  margin-left:680px ; /* adjust margin as needed */
+  margin-top: 40px;
+}
+
+/* Logo image styles */
+.log img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+
+/* Style for click-here button */
+.click-here-butto {
+  position: absolute; /* Position property set to absolute */
+  top: 85%; /* Distance from top of container */
+  left: 50%; /* Distance from left of container */
+  transform: translate(-50%, -50%); /* Position the button in the center of the container */
+  padding: 10px 20px; /* Add padding of 10px top and bottom and 20px left and right */
+  background-color: #2b4e74; /* Background color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline from text */
+  border: 10px solid lightskyblue; /* Border with 2px width and black color */
+  border-radius: 1px; /* Add rounded corners of 5px */
+  font-weight: bold; /* Bold font weight */
+  transition: all 0.3s ease-in-out; /* Add transition effect for all styles with ease-in-out timing of 0.3 seconds */
+}
+
+/* Style when hover over click-here button */
+.click-here-butto:hover {
+  background-color: white; /* Background color */
+  color:#2b4e74 ; /* Text color */
+}

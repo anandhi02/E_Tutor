@@ -1,0 +1,40 @@
+
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #2b4e74;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+label,
+select {
+  font-size: 18px;
+  margin: 10px;
+  color: #2b4e74;
+}
+
+input[type="button"] {
+  background-color: #2b4e74;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 60px;
+
+}
+
+input[type="button"]:hover,
+input[type="button"]:focus {
+  color: white;
+  background-color: #3474ba;
+  text-decoration: none;
+  cursor: pointer;
+}

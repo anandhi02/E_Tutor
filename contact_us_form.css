@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.container{
+  z-index: 12;
+  max-width: 1050px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 230px;
+  background-image: url("img/background.jpg");
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+}
+.content .image-box{
+  max-width: 35%;
+  margin-left: 100px;
+}
+.content .image-box img{
+  width: 100%;
+}
+.content .topic{
+  font-size: 40px;
+  font-family: sans-serif bold;
+  font-weight: 500;
+  color: black;
+}
+.content form{
+  width: 40%;
+  margin-right: 30px;
+}
+.content .input-box{
+  height: 35px;
+  width: 100%;
+  margin: 16px 0;
+  position: relative;
+}
+.content .input-box input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  padding-left: 16px;
+  background: #D5f3fe;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.content .input-box input:focus,
+.content .input-box input:valid{
+  border-color:  #d5f3fe;
+  background-color: #fff;
+}
+.content .input-box label{
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  color: black;
+  font-size: 15px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+
+}
+
+.content .message-box{
+  min-height: 100px;
+  width: 104%;
+  margin-top: 25px;
+  position: relative;
+  margin-left: 20px;
+}
+.content .message-box textarea{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  resize: none;
+  font-size: 140%;
+  background: #d5f3fe;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  transition all 0.3s ease;
+}
+.content .message-box textarea:focus{
+  border-color:  #d5f3fe;
+  background-color: #fff;
+
+}
+.content .message-box label{
+  position: absolute;
+  font-size: 16px;
+  color: black;
+  left: 18px;
+  top: 50px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.content .message-box textarea:focus ~ label{
+  left: 12px;
+  top: -10px;
+  color: skyblue;
+  font-size: 14px;
+  background: white;
+}
+
+
+.content .input-box input[type="submit"]{
+  color: #2b4e74;
+  background: aliceblue;
+  padding-left: 10px;
+  margin-left: 13px;
+  width: 100%;
+  height: 150%;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+
+}
+.content .input-box input[type="submit"]:hover{
+  background-color: #2b4e74;
+  color: white;
+
+}
+
+
+.contact h2 {
+  font-size: 40px; /* Sets the font size of the "h2" element inside "about-us". */
+  margin-bottom: 26px; /* Adds margin at the bottom of the "h2" element inside "about-us". */
+  color: #2b4e74; /* Sets the color of the "h2" element inside "about-us". */
+  margin-top: 40px;
+  margin-left: 700px;
+}

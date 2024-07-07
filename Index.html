@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>e-Tutor - Digital Education Website</title>
+    <link rel="stylesheet" type="text/css" href="Mainstyle.css">
+        <link rel="stylesheet" type="text/css" href="contact_us_form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+  <body>
+    <div id="loader">
+      <svg xmlns="http://www.w3.org/2000/svg" height="200px" width="200px" viewBox="0 0 200 200" class="pencil">
+  <defs>
+    <clipPath id="pencil-eraser">
+      <rect height="30" width="30" ry="5" rx="5"></rect>
+    </clipPath>
+  </defs>
+  <circle transform="rotate(-113,100,100)" stroke-linecap="round" stroke-dashoffset="439.82" stroke-dasharray="439.82 439.82" stroke-width="2" stroke="currentColor" fill="none" r="70" class="pencil__stroke"></circle>
+  <g transform="translate(100,100)" class="pencil__rotate">
+    <g fill="none">
+      <circle transform="rotate(-90)" stroke-dashoffset="402" stroke-dasharray="402.12 402.12" stroke-width="30" stroke="hsl(223,90%,50%)" r="64" class="pencil__body1"></circle>
+      <circle transform="rotate(-90)" stroke-dashoffset="465" stroke-dasharray="464.96 464.96" stroke-width="10" stroke="hsl(223,90%,60%)" r="74" class="pencil__body2"></circle>
+      <circle transform="rotate(-90)" stroke-dashoffset="339" stroke-dasharray="339.29 339.29" stroke-width="10" stroke="hsl(223,90%,40%)" r="54" class="pencil__body3"></circle>
+    </g>
+    <g transform="rotate(-90) translate(49,0)" class="pencil__eraser">
+      <g class="pencil__eraser-skew">
+        <rect height="30" width="30" ry="5" rx="5" fill="hsl(223,90%,70%)"></rect>
+        <rect clip-path="url(#pencil-eraser)" height="30" width="5" fill="hsl(223,90%,60%)"></rect>
+        <rect height="20" width="30" fill="hsl(223,10%,90%)"></rect>
+        <rect height="20" width="15" fill="hsl(223,10%,70%)"></rect>
+        <rect height="20" width="5" fill="hsl(223,10%,80%)"></rect>
+        <rect height="2" width="30" y="6" fill="hsla(223,10%,10%,0.2)"></rect>
+        <rect height="2" width="30" y="13" fill="hsla(223,10%,10%,0.2)"></rect>
+      </g>
+    </g>
+    <g transform="rotate(-90) translate(49,-30)" class="pencil__point">
+      <polygon points="15 0,30 30,0 30" fill="hsl(33,90%,70%)"></polygon>
+      <polygon points="15 0,6 30,0 30" fill="hsl(33,90%,50%)"></polygon>
+      <polygon points="15 0,20 10,10 10" fill="hsl(223,10%,10%)"></polygon>
+    </g>
+  </g>
+</svg>
+</div>
+<div id="content">
+    <div class="popup" id="hi">
+      <div class="popup-inner">
+        <span class="close-btn">&times;</span>
+        <form action="Demo_class.php" method="post" onsubmit="closepopup();">
+        <h2>Book Your Free Demo Class ! </h2>
+      <input type="name" id="name" name="name" placeholder="Name" required>      
+      <input type="email" id="email" name="email" placeholder="Email" required>
+      <input type="phone" id="phone" name="phone" placeholder="Phone" required>
+      <input type="grade" id="grade" name="grade" placeholder="Grade" required>
+      <input type="subject" id="subject" name="subject" placeholder="Subject" required>
+      <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div> 
+    <header class ="fixed-header">
+    <div class="logo">
+      <a href="#"><img src="img/Logo.png" alt="Logo"></a>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#work">HOW IT WORKS</a></li>
+        <li><a href="#contact">CONTACT US</a></li>
+        <li><a href="register_form.php">REGISTER</a></li>
+        <li><a href="login_form.php">LOGIN</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="image-container">
+  <img src="img/banner.jpg" alt="your-image-description">
+  <a href="#"  onclick="openPopup()" class="click-here-button">Book your free Demo Class</a>
+  
+</div>
+<div class="image-con">
+  <img src="img/Filler1.png" alt="">
+</div>
+
+<section class="about-us" id="about">
+<br>
+      <h2>About Us</h2>
+      <p>Welcome to e-Tutor, a digital education website that aims to provide high-quality online learning experiences to students worldwide. Our mission is to create a platform that offers access to affordable and engaging education, regardless of geographic location or socio-economic background.<br>
+
+At e-Tutor, we believe that every student has the potential to succeed, and we are committed to providing the necessary tools and resources to help them achieve their goals. Our team of experienced educators and technologists has worked tirelessly to create a user-friendly platform that offers a wide range of courses, from K-12 to higher education and professional development.Our platform is designed to be interactive and engaging, with features such as live virtual classrooms, interactive whiteboards, and multimedia resources that help students learn in a way that is both fun and effective. We also offer personalized learning paths and assessments to ensure that each student is getting the support and guidance they need to succeed.<br>
+
+In addition to our courses, we offer a range of support services, including tutoring, academic counseling, and career services. We understand that education is not just about learning, but also about personal growth and development, and we strive to provide a holistic approach to learning that addresses the needs of the whole student.<br>
+
+At e-Tutor, we are dedicated to making education accessible to all, regardless of financial or geographical barriers. We offer flexible payment options and have partnerships with schools, non-profit organizations, and corporations to provide access to our courses to underserved communities.Our team is passionate about education and committed to creating a platform that empowers students to achieve their full potential. We are constantly innovating and improving our platform to ensure that we are providing the best possible learning experience to our students.<br>
+
+Thank you for considering e-Tutor as your digital education partner. We look forward to helping you achieve your educational and professional goals.
+</p>
+      <div class="about-us-images">
+        <img src="img/Filler4.png" alt="#">
+        <img src="img/Filler3.png" alt="#">
+      </div>
+    </section>
+
+
+<section id="testimonials">
+  <br>
+  <h2>What Our Students Say ! </h2>
+  <div class="testimonial-container">
+    <div class="testimonial-slide">
+      <p>"I've been using eTutor for 3 months now and I've seen a significant improvement in my grades. The tutors are knowledgeable and helpful."</p>
+      <div class="testimonial-info">
+        <span class="testimonial-name">John Doe</span>
+        <span class="testimonial-rating">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+      </div>
+    </div>
+    <div class="testimonial-slide">
+      <p>"I was struggling with math and eTutor helped me understand the concepts and pass my exams. Highly recommend!"</p>
+      <div class="testimonial-info">
+        <span class="testimonial-name">Sarah Smith</span>
+        <span class="testimonial-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+      </div>
+    </div>
+    <div class="testimonial-slide">
+      <p>"eTutor's online platform is user-friendly and easy to navigate. I appreciate the flexibility it provides."</p>
+      <div class="testimonial-info">
+        <span class="testimonial-name">Mark Johnson</span>
+        <span class="testimonial-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+      </div>
+    </div>
+    <div class="testimonial-slide">
+      <p>"I've been able to fit tutoring sessions into my busy schedule thanks to eTutor's flexible hours. Great service!"</p>
+      <div class="testimonial-info">
+        <span class="testimonial-name">Lisa Garcia</span>
+        <span class="testimonial-rating">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+      </div>
+    </div>
+    <div class="testimonial-slide">
+      <p>"The tutors at eTutor are patient and encouraging. They have helped me build my confidence in my abilities."</p>
+      <div class="testimonial-info">
+        <span class="testimonial-name">David Lee</span>
+        <span class="testimonial-rating">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+      </div>
+    </div>
+    <div class="testimonial-slide">
+      <p>"I've tried other tutoring services before, but eTutor is by far the best. The tutors are knowledgeable and passionate about helping students succeed."</p>
+      <div class="testimonial-info">
+        <span class="testimonial-name">Jessica Chen</span>
+        <span class="testimonial-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="How-it-works" id="work">
+<div class="infographic-chart">
+  <br>
+  <h2 class="chart-heading">How It Works <p style="font-size: 32px" @media screen and (max-width: 600px{p style="font-size: 10px"})> 6 Steps for Students - To Transform Your Life Through Education</p></h2>
+  <div class="box1">
+    <h3 class="box-heading">Step 1</h3>
+     <h4 class="box-in">Registration</h4>
+    <p class="box-text">Create an account and fill out your profile to get started.</p>
+  </div>
+  <div class="box2">
+    <h3 class="box-heading">Step 2</h3>
+    <h4 class="box-in">Choose a tutor</h4>
+    <p class="box-text">Browse our list of qualified tutors, view their profiles and select the best one for your needs.</p>
+  </div>
+  <div class="box3">
+    <h3 class="box-heading">Step 3</h3>
+    <h4 class="box-in">Attend a Demo Class</h4>
+    <p class="box-text">Schedule a free demo class with your chosen tutor to get a feel for their teaching style and approach.</p>
+  </div>
+  <div class="box4">
+    <h3 class="box-heading">Step 4</h3>
+    <h4 class="box-in">Provide Feedback</h4>
+    <p class="box-text">After the demo class, share your feedback with us and let us know if you want to continue with the tutor or explore other options.</p>
+  </div>
+  <div class="box5">
+    <h3 class="box-heading">Step 5</h3>
+    <h4 class="box-in">Pay Fees</h4>
+    <p class="box-text">Learn from your tutor and ask any questions you have along the way.</p>
+  </div>
+  <div class="box6">
+    <h3 class="box-heading">Step 6</h3>
+    <h4 class="box-in">Start Classes</h4>
+    <p class="box-text">Begin your classes with your tutor and start achieving your academic goals!</p>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="image-cont">
+  <h2 class="image-heading">Learn more about e-Tutor - Digital Education </h2>
+  <img src="img/Filler2.png" alt="">
+  <div class="text-box1">
+    <span class="text">Online Tutoring<p style="font-size: 20px"> Classes 1 - 12</p></span>
+  </div>
+  <div class="text-box2">
+    <span class="text">Online Test<p style="font-size: 20px"> Practice Worksheets</p></span>
+  </div>
+  <div class="text-box3">
+    <span class="text">Free Worksheets<p style="font-size: 20px">Download and Practice</span>
+  </div>
+  <div class="text-box4">
+    <span class="text">Test Prep<p style="font-size: 20px">X, XII, TANCET, TNPSC</p></span>
+  </div>
+  <div class="text-box5">
+    <span class="text">Learning Programs<p style="font-size: 20px">Individualized, Customizable</p></span>
+  </div>
+  <div class="text-box6">
+    <span class="text">Subject Tutoring<p style="font-size: 20px">Math, Science, English, STEM</p></span>
+  </div>
+  <div class="text-box7">
+    <span class="text">Learning Packages<p style="font-size: 20px">Cost-effective for Sustained Focus</p> </span>
+  </div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+  <br>
+  <br>
+      <h2>Contact Us</h2>
+<div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img src="img/Logo.png" alt="">
+      </div>
+    <form action="contact us.php" method="post">
+      <div class="topic">Send us a message</div>
+      <div class="input-box">
+<label for="name">Name</label>
+  <input type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+      <div class="input-box">
+ <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Your email" required>
+      </div>
+      <div class="message-box">
+        <label for="message">Message</label>
+  <textarea id="message" name="message" placeholder="Message"></textarea>
+      </div>
+      <div class="input-box">
+        <input type="submit" value="Send Message">
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+
+<footer>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="row">
+<ul>
+<li><a href="#about">About us</a></li>
+<li><a href="#work">How it works</a></li>
+<li><a href="#testimonials">Testimonials</a></li>
+<li><a href="#register_form.php">Register</a></li>
+</ul>
+</div>
+
+<div class="row">
+e-Tutor Copyright © 2023 e-Tutor - All rights reserved || Designed By: Anandhi
+</div>
+</div>
+</footer>
+
+</div>
+
+
+<script >
+  
+
+  
+setTimeout(function(){
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("content").style.display = "block";
+    }, 1000); // Change 5000 to the number of milliseconds you want to delay for
+
+const popup = document.querySelector('.popup');
+      const closeBtn = document.querySelector('.close-btn');
+
+function openPopup() {
+  var popup = document.getElementById("hi");
+  popup.style.display = "block";
+}
+// Show the popup window on page load
+      window.onload = function() {
+        popup.style.display = "block";
+      }
+
+// Close the popup window when the close button is clicked
+      closeBtn.onclick = function() {
+        popup.style.display = "none";
+      }
+
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
+
+      
+
+</script>
+
+</head>
+</body>
